@@ -6,7 +6,7 @@ let lastItems = document.querySelectorAll('.last-item')
 
 window.addEventListener('scroll', () => {
     var header = document.querySelector('header')
-    var sticky = header.offsetTop
+    var sticky = 100
 
     if (window.pageYOffset > sticky) {
         header.classList.add("sticky");
